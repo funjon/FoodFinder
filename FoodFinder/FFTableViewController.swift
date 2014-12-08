@@ -74,13 +74,10 @@ class FFTableViewController: UITableViewController {
         }
 
         // Configure the cell...
-        NSLog("Building cell for \(restaurantArray[indexPath.row].name())")
         
         cell?.restaurantName.text = restaurantArray[indexPath.row].name()
         cell?.restaurantAddress.text = restaurantArray[indexPath.row].address()
         cell?.restaurantImage.image = UIImage(named: restaurantArray[indexPath.row].image())
-        
-        NSLog("Built cell for \(restaurantArray[indexPath.row].name)")
         
         return cell!
     }

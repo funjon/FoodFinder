@@ -23,6 +23,10 @@
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>$(PRODUCT_NAME)</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Gotta find food somehow!</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Finding food in the background!</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
