@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Panera Bread</key>
+	<dict>
+		<key>name</key>
+		<string>Panera Bread Company</string>
+		<key>address</key>
+		<string>20807 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>bread</string>
+	</dict>
+	<key>Ike&apos;s Lair</key>
+	<dict>
+		<key>name</key>
+		<string>Ike&apos;s Lair</string>
+		<key>address</key>
+		<string>21000 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>sandwich</string>
+	</dict>
+	<key>Panda Express</key>
+	<dict>
+		<key>name</key>
+		<string>Panda Express</string>
+		<key>address</key>
+		<string>21000 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>noodles</string>
+	</dict>
+	<key>Islands Burgers</key>
+	<dict>
+		<key>name</key>
+		<string>Islands Burgers</string>
+		<key>address</key>
+		<string>20750 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>burger</string>
+	</dict>
+	<key>Pizza Hut</key>
+	<dict>
+		<key>name</key>
+		<string>Pizza Hut</string>
+		<key>address</key>
+		<string>20770 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>pizza</string>
+	</dict>
+	<key>Paris Baguette</key>
+	<dict>
+		<key>name</key>
+		<string>Paris Baguette</string>
+		<key>address</key>
+		<string>20735 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>bread</string>
+	</dict>
+	<key>Peet&apos;s Coffee</key>
+	<dict>
+		<key>name</key>
+		<string>Peet&apos;s Coffee</string>
+		<key>address</key>
+		<string>20807 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>coffee</string>
+	</dict>
+	<key>Fontana&apos;s Italian</key>
+	<dict>
+		<key>name</key>
+		<string>Fontana&apos;s Italian</string>
+		<key>address</key>
+		<string>20840 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>italian</string>
+	</dict>
+	<key>Coffee Society</key>
+	<dict>
+		<key>name</key>
+		<string>Coffee Society</string>
+		<key>address</key>
+		<string>21265 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>coffee</string>
+	</dict>
+	<key>Hobee&apos;s</key>
+	<dict>
+		<key>name</key>
+		<string>Hobee&apos;s</string>
+		<key>address</key>
+		<string>21267 Stevens Creek Blvd, Cupertino, CA 95014</string>
+		<key>image</key>
+		<string>breakfast</string>
+	</dict>
+</dict>
+</plist>

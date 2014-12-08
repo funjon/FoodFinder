@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C4409691A35BA3800FA43FC /* restaurants.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C4409681A35BA3800FA43FC /* restaurants.plist */; };
+		7C4409831A35BF7B00FA43FC /* breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C44097B1A35BF7B00FA43FC /* breakfast.png */; };
+		7C4409841A35BF7B00FA43FC /* italian.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C44097C1A35BF7B00FA43FC /* italian.png */; };
+		7C4409851A35BF7B00FA43FC /* coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C44097D1A35BF7B00FA43FC /* coffee.png */; };
+		7C4409861A35BF7B00FA43FC /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C44097E1A35BF7B00FA43FC /* pizza.png */; };
+		7C4409871A35BF7B00FA43FC /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C44097F1A35BF7B00FA43FC /* burger.png */; };
+		7C4409881A35BF7B00FA43FC /* noodles.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4409801A35BF7B00FA43FC /* noodles.png */; };
+		7C4409891A35BF7B00FA43FC /* sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4409811A35BF7B00FA43FC /* sandwich.png */; };
+		7C44098A1A35BF7B00FA43FC /* bread.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C4409821A35BF7B00FA43FC /* bread.png */; };
+		7C44098C1A35C0F100FA43FC /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44098B1A35C0F100FA43FC /* RestaurantCell.swift */; };
+		7C44098E1A35C5F400FA43FC /* RestaurantMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44098D1A35C5F400FA43FC /* RestaurantMapViewController.swift */; };
+		7C4409901A35C62600FA43FC /* FFTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C44098F1A35C62600FA43FC /* FFTableViewController.swift */; };
 		7C6FCBAB1A35A61A00A62693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6FCBAA1A35A61A00A62693 /* AppDelegate.swift */; };
-		7C6FCBAD1A35A61A00A62693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6FCBAC1A35A61A00A62693 /* ViewController.swift */; };
 		7C6FCBB01A35A61A00A62693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C6FCBAE1A35A61A00A62693 /* Main.storyboard */; };
 		7C6FCBB21A35A61A00A62693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C6FCBB11A35A61A00A62693 /* Images.xcassets */; };
 		7C6FCBB51A35A61A00A62693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C6FCBB31A35A61A00A62693 /* LaunchScreen.xib */; };
 		7C6FCBC11A35A61A00A62693 /* FoodFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6FCBC01A35A61A00A62693 /* FoodFinderTests.swift */; };
+		7C6FCBCB1A35AE6E00A62693 /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6FCBCA1A35AE6E00A62693 /* RestaurantItem.swift */; };
+		7C6FCBCD1A35B05A00A62693 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6FCBCC1A35B05A00A62693 /* UIKit.framework */; };
+		7C6FCBD31A35B08D00A62693 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6FCBD21A35B08D00A62693 /* CoreGraphics.framework */; };
+		7CCDE4D51A35B10E00F368AA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6FCBCE1A35B06300A62693 /* MapKit.framework */; };
+		7CCDE4D61A35B12100F368AA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C6FCBD01A35B07100A62693 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +42,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C4409681A35BA3800FA43FC /* restaurants.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = restaurants.plist; sourceTree = "<group>"; };
+		7C44097B1A35BF7B00FA43FC /* breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breakfast.png; sourceTree = "<group>"; };
+		7C44097C1A35BF7B00FA43FC /* italian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = italian.png; sourceTree = "<group>"; };
+		7C44097D1A35BF7B00FA43FC /* coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coffee.png; sourceTree = "<group>"; };
+		7C44097E1A35BF7B00FA43FC /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		7C44097F1A35BF7B00FA43FC /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burger.png; sourceTree = "<group>"; };
+		7C4409801A35BF7B00FA43FC /* noodles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noodles.png; sourceTree = "<group>"; };
+		7C4409811A35BF7B00FA43FC /* sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandwich.png; sourceTree = "<group>"; };
+		7C4409821A35BF7B00FA43FC /* bread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bread.png; sourceTree = "<group>"; };
+		7C44098B1A35C0F100FA43FC /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		7C44098D1A35C5F400FA43FC /* RestaurantMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantMapViewController.swift; sourceTree = "<group>"; };
+		7C44098F1A35C62600FA43FC /* FFTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FFTableViewController.swift; sourceTree = "<group>"; };
 		7C6FCBA51A35A61900A62693 /* FoodFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6FCBA91A35A61A00A62693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C6FCBAA1A35A61A00A62693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C6FCBAC1A35A61A00A62693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C6FCBAF1A35A61A00A62693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C6FCBB11A35A61A00A62693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C6FCBB41A35A61A00A62693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7C6FCBBA1A35A61A00A62693 /* FoodFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6FCBBF1A35A61A00A62693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C6FCBC01A35A61A00A62693 /* FoodFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFinderTests.swift; sourceTree = "<group>"; };
+		7C6FCBCA1A35AE6E00A62693 /* RestaurantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
+		7C6FCBCC1A35B05A00A62693 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C6FCBCE1A35B06300A62693 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7C6FCBD01A35B07100A62693 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7C6FCBD21A35B08D00A62693 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CCDE4D61A35B12100F368AA /* CoreLocation.framework in Frameworks */,
+				7C6FCBD31A35B08D00A62693 /* CoreGraphics.framework in Frameworks */,
+				7CCDE4D51A35B10E00F368AA /* MapKit.framework in Frameworks */,
+				7C6FCBCD1A35B05A00A62693 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +92,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C44096A1A35BF2500FA43FC /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7C44097B1A35BF7B00FA43FC /* breakfast.png */,
+				7C44097C1A35BF7B00FA43FC /* italian.png */,
+				7C44097D1A35BF7B00FA43FC /* coffee.png */,
+				7C44097E1A35BF7B00FA43FC /* pizza.png */,
+				7C44097F1A35BF7B00FA43FC /* burger.png */,
+				7C4409801A35BF7B00FA43FC /* noodles.png */,
+				7C4409811A35BF7B00FA43FC /* sandwich.png */,
+				7C4409821A35BF7B00FA43FC /* bread.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		7C6FCB9C1A35A61900A62693 = {
 			isa = PBXGroup;
 			children = (
+				7C6FCBD21A35B08D00A62693 /* CoreGraphics.framework */,
+				7C6FCBD01A35B07100A62693 /* CoreLocation.framework */,
+				7C6FCBCE1A35B06300A62693 /* MapKit.framework */,
+				7C6FCBCC1A35B05A00A62693 /* UIKit.framework */,
 				7C6FCBA71A35A61900A62693 /* FoodFinder */,
 				7C6FCBBD1A35A61A00A62693 /* FoodFinderTests */,
 				7C6FCBA61A35A61900A62693 /* Products */,
@@ -77,9 +132,14 @@
 		7C6FCBA71A35A61900A62693 /* FoodFinder */ = {
 			isa = PBXGroup;
 			children = (
+				7C44096A1A35BF2500FA43FC /* images */,
 				7C6FCBAA1A35A61A00A62693 /* AppDelegate.swift */,
-				7C6FCBAC1A35A61A00A62693 /* ViewController.swift */,
+				7C44098D1A35C5F400FA43FC /* RestaurantMapViewController.swift */,
+				7C6FCBCA1A35AE6E00A62693 /* RestaurantItem.swift */,
+				7C44098F1A35C62600FA43FC /* FFTableViewController.swift */,
+				7C4409681A35BA3800FA43FC /* restaurants.plist */,
 				7C6FCBAE1A35A61A00A62693 /* Main.storyboard */,
+				7C44098B1A35C0F100FA43FC /* RestaurantCell.swift */,
 				7C6FCBB11A35A61A00A62693 /* Images.xcassets */,
 				7C6FCBB31A35A61A00A62693 /* LaunchScreen.xib */,
 				7C6FCBA81A35A61900A62693 /* Supporting Files */,
@@ -161,6 +221,12 @@
 				TargetAttributes = {
 					7C6FCBA41A35A61900A62693 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = Q6KU84388F;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					7C6FCBB91A35A61A00A62693 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,8 +258,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4409851A35BF7B00FA43FC /* coffee.png in Resources */,
+				7C4409691A35BA3800FA43FC /* restaurants.plist in Resources */,
+				7C44098A1A35BF7B00FA43FC /* bread.png in Resources */,
+				7C4409871A35BF7B00FA43FC /* burger.png in Resources */,
+				7C4409861A35BF7B00FA43FC /* pizza.png in Resources */,
 				7C6FCBB01A35A61A00A62693 /* Main.storyboard in Resources */,
+				7C4409891A35BF7B00FA43FC /* sandwich.png in Resources */,
 				7C6FCBB51A35A61A00A62693 /* LaunchScreen.xib in Resources */,
+				7C4409881A35BF7B00FA43FC /* noodles.png in Resources */,
+				7C4409831A35BF7B00FA43FC /* breakfast.png in Resources */,
+				7C4409841A35BF7B00FA43FC /* italian.png in Resources */,
 				7C6FCBB21A35A61A00A62693 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C6FCBAD1A35A61A00A62693 /* ViewController.swift in Sources */,
+				7C4409901A35C62600FA43FC /* FFTableViewController.swift in Sources */,
+				7C44098C1A35C0F100FA43FC /* RestaurantCell.swift in Sources */,
+				7C6FCBCB1A35AE6E00A62693 /* RestaurantItem.swift in Sources */,
 				7C6FCBAB1A35A61A00A62693 /* AppDelegate.swift in Sources */,
+				7C44098E1A35C5F400FA43FC /* RestaurantMapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,9 +414,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FoodFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -346,9 +428,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FoodFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -405,6 +491,7 @@
 				7C6FCBC61A35A61A00A62693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7C6FCBC71A35A61A00A62693 /* Build configuration list for PBXNativeTarget "FoodFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +500,7 @@
 				7C6FCBC91A35A61A00A62693 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
